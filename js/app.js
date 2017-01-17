@@ -1,9 +1,11 @@
-function toogleMenu() {
-    var button = document.getElementById('menubtn');
-    if(button.classList.contains('showmenu')) {
-        button.classList.remove('showmenu');
+function toggleMenu() {
+    var links = document.getElementById('navlinks');
+    if(links.classList.contains('showmenu')) {
+        links.classList.remove('showmenu');
+        links.classList.add('hidemenu');
     }
     else {
-        button.classList.add('showmenu');
+        links.classList.remove('hidemenu');
+        links.classList.add('showmenu');
     }
 }

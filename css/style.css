@@ -26,7 +26,7 @@ header > nav > input#menubtn {
     border: none;
 }
 
-header > nav > ul#navlinks {
+.hidemenu {
     display: none;
 }
 
