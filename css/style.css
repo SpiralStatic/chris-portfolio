@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 100vw
+    width: 100vw;
 }
 
 /*==========HEADER==========*/
@@ -11,14 +11,31 @@ header {
     width: 100vw;
 }
 
+header > h1 {
+    height: 5vh;
+    font-size: 2em;
+    text-align: center;
+}
+
+header > nav > input#menubtn {
+    height: 5vh;
+    width: 100vw;
+    border: none;
+}
+
+header > nav > ul#navlinks {
+    display: none;
+}
 /*==========MAIN==========*/
 main {
+    height: 85vh;
     width: 100vw;
 }
 
 main > section#apps {
-    height: 30%;
+    height: 50%;
 }
+
 main > section#apps > article {
     height: 100%;
     width: 100%;
@@ -36,5 +53,6 @@ main > section#apps > article > p {
 
 /*==========FOOTER==========*/
 footer {
+    height: 5vh;
     width: 100vw;
 }
