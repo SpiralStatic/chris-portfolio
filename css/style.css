@@ -4,6 +4,7 @@
 
 body {
     width: 100vw;
+    min-width: 320px;
     box-sizing: border-box;
 }
 
@@ -28,6 +29,10 @@ header > nav > input#menubtn {
 header > nav > ul#navlinks {
     display: none;
 }
+
+.showmenu {
+    display: block;
+}
 /*==========MAIN==========*/
 main {
     height: 85vh;
@@ -35,24 +40,25 @@ main {
 }
 
 /*----------APPS----------*/
-main > section#apps {
-    height: 100%;
-}
-
 main > section#apps > article {
-    height: 50%;
-    width: 50%;
+    width: 90%;
     padding: 5%;
 }
 
 main > section#apps > article > img {
+    display: inline-block;
     height: 100%;
-    width: 50%;
+    width: 45%;
 }
 
-main > section#apps > article > p {
+main > section#apps > article > div.article-text-wrapper {
+    display: inline-block;
     height: 100%;
-    width: 50%;
+    width: 45%;
+}
+
+main > section#apps > article > div > p {
+    padding: 5%;
 }
 
 /*----------CV----------*/
