@@ -24,13 +24,17 @@ header > nav > input#menubtn {
 }
 
 header > nav > ul#navlinks > li {
+    height: 10vw;
     width: 100vw;
     text-align: center;
 }
 
 header > nav > ul#navlinks > li > a {
-    width: 100vw;
+    display: block;
+    height: 100%;
+    width: 100%;;
     text-decoration: none;
+    font-size: 1.5em;
     padding: 2%;
 }
 
@@ -66,12 +70,13 @@ main > section#apps > article > img {
 
 main > section#apps > article > div.article-text-wrapper {
     display: inline-block;
+    float: right;
     height: 100%;
     width: 45%;
 }
 
 main > section#apps > article > div > p {
-    /*padding: 5%;*/
+    padding: 5%;
 }
 
 /*----------CV----------*/
