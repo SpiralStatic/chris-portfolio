@@ -6,14 +6,35 @@ body {
     width: 100vw
 }
 
+/*==========HEADER==========*/
 header {
     width: 100vw;
 }
 
+/*==========MAIN==========*/
 main {
     width: 100vw;
 }
 
+main > section#apps {
+    height: 30%;
+}
+main > section#apps > article {
+    height: 100%;
+    width: 100%;
+}
+
+main > section#apps > article > img {
+    height: 100%;
+    width: 50%;
+}
+
+main > section#apps > article > p {
+    height: 100%;
+    width: 50%;
+}
+
+/*==========FOOTER==========*/
 footer {
     width: 100vw;
 }
