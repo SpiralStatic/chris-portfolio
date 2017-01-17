@@ -1,11 +1,8 @@
-*, details {
-    border: 2px solid black;
-}
-
 body {
     width: 100vw;
     min-width: 320px;
     box-sizing: border-box;
+    font-family: "Helvitica Neue";
 }
 
 /*==========HEADER==========*/
@@ -26,6 +23,21 @@ header > nav > input#menubtn {
     border: none;
 }
 
+header > nav > ul#navlinks > li {
+    width: 100vw;
+    text-align: center;
+}
+
+header > nav > ul#navlinks > li > a {
+    width: 100vw;
+    text-decoration: none;
+    padding: 2%;
+}
+
+header > nav > ul#navlinks > li > a:hover {
+    background-color: grey;
+}
+
 .hidemenu {
     display: none;
 }
@@ -33,6 +45,7 @@ header > nav > input#menubtn {
 .showmenu {
     display: block;
 }
+
 /*==========MAIN==========*/
 main {
     height: 85vh;
@@ -58,13 +71,17 @@ main > section#apps > article > div.article-text-wrapper {
 }
 
 main > section#apps > article > div > p {
-    padding: 5%;
+    /*padding: 5%;*/
 }
 
 /*----------CV----------*/
 main > section#cv > details {
     height: 100px;
     width: 100%;
+}
+
+main > section#cv> details > summary {
+    font-size: 1.5em;
 }
 
 /*==========FOOTER==========*/
