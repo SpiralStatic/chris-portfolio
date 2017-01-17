@@ -11,20 +11,24 @@ header {
 }
 
 header > h1 {
-    height: 5vh;
+    height: 30%;
     font-size: 2em;
     text-align: center;
     padding: 2.5% 0;
 }
 
+header > nav {
+    height: 70%;
+}
+
 header > nav > input#menubtn {
-    height: 5vh;
-    width: 100vw;
+    height: 7vh;
+    width: 100%;
     border: none;
 }
 
 header > nav > ul#navlinks > li {
-    height: 10vw;
+    height: 5vw;
     width: 100vw;
     text-align: center;
 }
@@ -86,6 +90,7 @@ main > section#apps > article > div > p {
 main > section#cv > details {
     height: 100px;
     width: 100%;
+    padding: 0 5%;
 }
 
 main > section#cv> details > summary {
@@ -96,6 +101,21 @@ main > section#cv> details > summary {
 footer {
     height: 5vh;
     width: 100vw;
+    bottom: 0;
+    left: 0;
     position: fixed;
     background-color: grey;
+}
+
+footer > ul {
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+}
+
+footer > ul > li > a > img.icon {
+    height: 4vh;
+    width: 4vw;
 }
