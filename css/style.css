@@ -99,3 +99,16 @@ footer {
     position: fixed;
     background-color: grey;
 }
+
+footer > ul {
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+}
+
+footer > ul > li > a > img.icon {
+    height: 2vh;
+    width: 2vw;
+}
