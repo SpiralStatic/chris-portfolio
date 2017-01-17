@@ -1,0 +1,19 @@
+*, details {
+    border: 2px solid black;
+}
+
+body {
+    width: 100vw
+}
+
+header {
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+}
+
+footer {
+    width: 100vw;
+}
